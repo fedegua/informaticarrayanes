@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<title>Lugares | Turismo Alternativo Sostenible</title>
+		<LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen >
+	</head>
+	<body>
+		<div id="contenedor">
+		
+			<div id="cont-encabezado">
+                <div id=encabezado class="div_info">
+                    <img src="img/logo.png" id="logo">
+                    <ul>
+                        <li class="borde">
+                           <a href="inicio.html">Inicio</a><img src="img/casa.png" class="icono">
+                        </li>
+                        <li class="borde">
+                            <a href="lugares.html" class="activo">Lugares</a><img src="img/ubicacion.png" class="icono">   
+                        </li>
+                        <li>
+                            <a href="contacto.html">Contacto</a><img src="img/mensaje.png" class="icono">
+                        </li>
+                    </ul>
+                </div>
+			</div>
+			
+			<div id="clear"></div>
+			<div id="contenido">
+                
+                <div id="div_lugares" >
+                    
+                    <div class="lugar">
+                        <img src="img/quebradaDeLosCuervos.jpg">
+                        <div>
+                            <button type="input" onclick="selectLugar(1)">Quebrada de los Cuervos</button>
+                        </div>
+                    </div>
+                    
+                    <div class="lugar">
+                        <img src="img/Valle_Eden.jpg">
+                        <button type="input" onclick="selectLugar(2)" >Valle Edén</button>
+                    </div>
+                    
+                    <div class="lugar">
+                        <img src="img/ValleDelLunarejo.jpg">
+                        <button type="input" onclick="selectLugar(3)" >Valle del Lunarejo</button>
+                    </div>
+                    
+                    <div class="lugar">
+                        <img src="img/VillaSoriano.jpg">
+                        <button type="input" onclick="selectLugar(4)">Villa Soriano</button>
+                    </div>
+                    
+                    <div class="lugar">
+                        <img src="img/Mal-abrigo.jpg">
+                        <button type="input" onclick="selectLugar(5)">Mal Abrigo</button>
+                    </div>
+                    
+                    <div class="lugar">
+                        <img src="img/feynanEco.jpg">
+                        <button type="input" onclick="selectLugar(6)">Feynan Ecolodge</button>
+                    </div>
+                    
+                    <div class="lugar">
+                        <img src="img/villasFinolhu.jpg">
+                        <button type="input" onclick="selectLugar(7)">Villas Finolhu</button>
+                    </div>
+                    
+                    <div class="lugar">
+                        <img src="img/SierraNevada.jpg">
+                        <button type="input" onclick="selectLugar(8)">Sierra Nevada</button>
+                    </div>  
+                    
+                </div>
+                
+                <div id="separador_lugares" class="div_info"></div>
+                
+                <div id="contenedor_lugares" class="div_info">
+                    
+                    <div id="1">
+                        <h2>Quebrada de los Cuervos</h2>
+                        <img src="img/quebradaDeLosCuervos.jpg">
+                        <p>Situada a 45 kilómetros de la ciudad de Treinta y Tres, la Quebrada de los Cuervos, descrita como "un paraíso escondido", se trata de una enorme garganta abierta a través del tiempo por el arroyo Yerbal Chico, en medio de una de las serranías más agrestes y exuberantes que tiene el Uruguay.</p>  
+                    </div>
+                    <div id="2" style="display: none">
+                        <h2>Valle Edén</h2>
+                        <img src="img/Valle_Eden.jpg">
+                        <p>Ubicado a 25 kilómetros de Tacuarembó, es uno de los paisajes más atractivos del país por su vegetación espesa, sus sierras y su antigua presencia ferroviaria. Este sitio todavía luce el depósito de agua que antiguamente se utilizaba para suministrar a las locomotoras.</p>  
+                    </div>
+                    <div id="3" style="display: none">
+                        <h2>Valle del Lunarejo</h2>
+                        <img src="img/ValleDelLunarejo.jpg">
+                        <p>Se encuentra en el extremo noreste del departamento de Rivera, muy cerca de Artigas y Salto. Está ubicada en la parte norte del sistema de la Cuchilla de Haedo, este cumple la función de corredor biológico para el ingreso de especies subtropicales y flora y fauna del sur de Brasil hacia el territorio uruguayo. Se destaca por tener un paisaje de gran belleza, con elementos escénicos únicos en el país.</p>  
+                    </div>
+                    <div id="4" style="display: none">
+                        <h2>Villa Soriano</h2>
+                        <img src="img/VillaSoriano.jpg">
+                        <p>Uno de los pueblos con encanto que ofrece el Corredor Pájaros Pintados, para muchos considerado como "el más antiguo" del país. Villa Soriano tiene diversos lugares a los cuales se pueden ir en bicicleta como por ejemplo el muelle, la Casa de las Máscaras, la Capilla y el Museo Maeso, entre otros.</p>  
+                    </div>
+                    <div id="5" style="display: none">
+                        <h2>Mal Abrigo</h2>
+                        <img src="img/Mal-abrigo.jpg">
+                        <p>Ubicado a 35 kms de la capital de San José y sobre la ruta 23, se encuentra esta localidad que en 2015 fue premiada como Pueblo Turístico. Es altamente recomendable realizar el trayecto por la ruta 23 hacia Sierras de Mahoma, un maravilloso espacio natural cargado de historia y misticismo.</p>  
+                    </div>
+                    <div id="6" style="display: none">
+                        <h2>Feynan Ecolodge</h2>
+                        <img src="img/feynanEco.jpg">
+                        <p>Este hotel ecológico en Jordania, se trata de un verdadero paraíso de turismo sostenible, completamente respetuoso con su entorno sin sacrificar el servicio 5 estrellas que ofrece a sus huéspedes nacionales e internacionales.</p>  
+                    </div>
+                    <div id="7" style="display: none">
+                        <h2>Villas Finolhu</h2>
+                        <img src="img/villasFinolhu.jpg">
+                        <p>Este paraíso natural ubicado en las Maldivas funciona enteramente con energía renovable, gracias a 6.000 metros cuadrados de paneles solares. A primera vista puede que no los notes, porque están perfectamente integrados con la arquitectura de las villas, pero cumplen su función. Y eso no es todo: puedes disfrutar de una experiencia memorable en un espacio con gestión de aguas, estricto reciclaje de residuos y un uso mínimo de materiales plásticos.</p>  
+                    </div>
+                    <div id="8" style="display: none">
+                        <h2>Parque Nacional de Sierra Nevada</h2>
+                        <img src="img/SierraNevada.jpg">
+                        <p>Cuando hablamos de turismo sostenible, España tiene mucho que ofrecer. Pero destaca especialmente el parque Nacional de Sierra Nevada, una absoluta maravilla de la naturaleza, con una de las floras mediterráneas más vastas de Europa (2.100 especies de plantas conviviendo) y la cumbre más alta del país.</p>  
+                    </div>
+                </div>
+
+			</div>
+			
+			<div id="pie">
+                <div id="cont-pie" class="div_info">
+				    <p>Sitio web realizado por: Maicol Pastor, Gabriel Pereira, Mateo Montero</p>
+					<p>Alumnos de 2°BB Informática</p>
+                </div>
+			</div>
+		</div>
+        <script src="main.js" type="text/javascript" ></script>
+	</body>
+</html>
